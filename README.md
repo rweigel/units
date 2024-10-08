@@ -37,7 +37,7 @@ means that a CDF variable with units of `fraction` was found to be associated wi
 
 Bob
 
-# From Jeremy after meeting
+## From Jeremy after meeting
 
 > Here is the document on Steven's Levels of Measurement, which I've found very helpful in representing units:
 https://en.wikipedia.org/wiki/Level_of_measurement
