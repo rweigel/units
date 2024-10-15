@@ -2,7 +2,7 @@
 
 Bob asked Baptiste about [`VOUnits`](https://www.ivoa.net/documents/VOUnits/20231215/REC-VOUnits-1.1.html) and [`NIST SP 811`](https://www.nist.gov/pml/special-publication-811/). Some notes:
 * He agreed that NIST SP 811 does not provide a formal grammar that would allow one to test programmatically the validity of a unit. It seems to be more of a style guide for authors.
-* We discussed that the value of a VOUnit, like UNITS in CDF files, can not be a scientific unit (e.g., pixel and count cannot be expressed in terms of one of the seven base SI units).
+* We discussed that the value of a VOUnit, like UNITS in CDF files, is not always a scientific unit (e.g., pixel and count cannot be expressed in terms of one of the seven base SI units).
 * Ideally, we can express all of the following: Pure numbers, dimensionless ratios, unknown units (due to missing information), and a way of indicating a unit that cannot be described in VOUnits.
 * Another issue is dimensionless values. What R_E was used?
 * I mentioned that "No unit, dimensionless." in VOUnits implicitly equated something with no units as dimensionless. But something without a unit, such as a pixel, fundamentally differs from something like x/R_E, which is a dimensionless number.
