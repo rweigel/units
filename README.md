@@ -5,7 +5,7 @@ Bob asked Baptiste about [`VOUnits`](https://www.ivoa.net/documents/VOUnits/2023
 * We discussed that the value of a VOUnit, like UNITS in CDF files, is not always a scientific unit (e.g., pixel and count cannot be expressed in terms of one of the seven base SI units).
 * Ideally, we can express all of the following: Pure numbers, dimensionless ratios, unknown units (due to missing information), and a way of indicating a unit that cannot be described in VOUnits.
 * Another issue is dimensionless values. What R_E was used?
-* I mentioned that "No unit, dimensionless." in VOUnits implicitly equated something with no units as dimensionless. But something without a unit, such as a pixel, fundamentally differs from something like x/R_E, which is a dimensionless number.
+* I mentioned that "No unit, dimensionless." in VOUnits implicitly equated something with no units as dimensionless. But something without a unit, such as a pixel, seems fundamentally different from something like x/R_E, which is a dimensionless number.
 
 # 2024-10-08
 
