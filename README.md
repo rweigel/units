@@ -11,6 +11,14 @@ Bob asked Baptiste about [`VOUnits`](https://www.ivoa.net/documents/VOUnits/2023
 * Another issue is dimensionless values. What R_E was used?
 * I mentioned that "No unit, dimensionless." in VOUnits implicitly equated something with no units as dimensionless. But something without a unit, such as a pixel, seems fundamentally different from something like x/R_E, which is a dimensionless number.
 
+Baptiste follow-up email:
+
+> I just checked astropy.units package documentation, and they support a set a unit standards:
+> https://docs.astropy.org/en/stable/units/format.html#built-in-formats
+> (i.e.: FITS, VOUnits, OGIP…)
+
+> Since the recommendation of PyHC is to use Astropy for managing units, it would be awkward to select a units standard which is not managed by Astropy :-)
+
 # 2024-10-08
 
 Telecon with Scott B., Bob W., Jeremy, Andriy, Bobby, Shing, and Lee.
