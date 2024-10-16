@@ -1,3 +1,7 @@
+# 2024-10-22
+
+Next telecon at 10 am Eastern (Tressa sent Teams invite).
+
 # 2024-10-14
 
 Bob asked Baptiste about [`VOUnits`](https://www.ivoa.net/documents/VOUnits/20231215/REC-VOUnits-1.1.html) and [`NIST SP 811`](https://www.nist.gov/pml/special-publication-811/). Some notes:
@@ -8,6 +12,8 @@ Bob asked Baptiste about [`VOUnits`](https://www.ivoa.net/documents/VOUnits/2023
 * I mentioned that "No unit, dimensionless." in VOUnits implicitly equated something with no units as dimensionless. But something without a unit, such as a pixel, seems fundamentally different from something like x/R_E, which is a dimensionless number.
 
 # 2024-10-08
+
+Telecon with Scott B., Bob W., Jeremy, Andriy, Bobby, Shing, and Lee.
 
 * We agreed that we should develop a translation of unit strings found Master CDFs ([Units.json](https://github.com/rweigel/cdawmeta-spase/blob/main/Units.json)).
 * Need to agree on what standard to use [`VOUnits`](https://www.ivoa.net/documents/VOUnits/20231215/REC-VOUnits-1.1.html) and [`NIST SP 811`](https://www.nist.gov/pml/special-publication-811/) were both discussed. It seems that `NIST SP 811` does not provide a standard for how mathematical operations are represented, e.g., `cm^2` or `cm**2` whereas `VOUnits` does. It was agreed that the [`VOUnits` symbols for multiplication and exponentiation](https://www.ivoa.net/documents/VOUnits/20231215/REC-VOUnits-1.1.html#tth_sEc2.9) were disliked. However, if we agreed that it would be better to use an existing standard than to invent our own.
