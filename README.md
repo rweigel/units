@@ -2,6 +2,13 @@
 
 Next telecon at 10 am Eastern (Tressa sent Teams invite).
 
+# 2024-10-18
+
+Andriy:
+> We had a small discussion at the IHDEA meeting today about UDUNITS-2, used for example by the CF (Climate and Forecast) Metadata Conventions (https://cfconventions.org/) for netCDFs, and difference with VOUnits. The comparison should be a good discussion for our meeting on Tuesday.  Could you please, in addition to VOUnits (https://ivoa.net/documents/VOUnits/20231215/REC-VOUnits-1.1.pdf), review  UDUNITS-2 before the meeting?
+>
+> The UDUNITS-2 are less well documented, with the main documentation page at https://docs.unidata.ucar.edu/udunits/current/ , but more details under link to C library doc (https://docs.unidata.ucar.edu/udunits/current/udunits2lib.html), command line utility doc (https://docs.unidata.ucar.edu/udunits/current/udunits2prog.html), and the actual unit definition database in the .xml files (https://docs.unidata.ucar.edu/udunits/current/#Database). The syntax is descripted under Section 6 of C library doc (https://docs.unidata.ucar.edu/udunits/current/udunits2lib.html#Syntax), especially Section 6.2 for mathematical operation representations. As you will see in Section 6.2, UDUNITS-2 is more flexible by, for example, allowing multiple representation of multiplication ("-",  ".", "*", <space>, <centered middot>) and exponentiation ("^", "**").   It allows UTF-8 encoding but can be restricted to ASCII. It is also easily extendable, via defining new units in an .xml file. In addition to C library and command line utility, there is also Python interface (https://github.com/NCAS-CMS/cfunits).
+
 # 2024-10-14
 
 Bob asked Baptiste about [`VOUnits`](https://www.ivoa.net/documents/VOUnits/20231215/REC-VOUnits-1.1.html) and [`NIST SP 811`](https://www.nist.gov/pml/special-publication-811/). Some notes:
