@@ -4,6 +4,14 @@ Next telecon at 10 am Eastern (Tressa sent Teams invite).
 
 # 2024-10-18
 
+In Andriy's IHDEA presentation, he mentioned UDUNITS-2 as a possibility over VOUnits.
+
+(In earlier emails and discussions, Bob had included UDUNITS-2 as a possibility but then later, without explanation, started to refer only to VOUnits.)
+
+One comment about UDUNITS2 is that the syntax looks more like what is used by scientists (* or space for multiplication, ^ for exponentiation).
+
+An advantage of VOUnits is that AstroPy is a core package of PyHC, and it understands VOUnits.
+
 Andriy:
 > We had a small discussion at the IHDEA meeting today about UDUNITS-2, used for example by the CF (Climate and Forecast) Metadata Conventions (https://cfconventions.org/) for netCDFs, and difference with VOUnits. The comparison should be a good discussion for our meeting on Tuesday.  Could you please, in addition to VOUnits (https://ivoa.net/documents/VOUnits/20231215/REC-VOUnits-1.1.pdf), review  UDUNITS-2 before the meeting?
 >
