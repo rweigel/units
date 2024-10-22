@@ -1,6 +1,15 @@
+# 2024-10-29
+
+Telecon at 9 am. Tressa will send invite.
+
 # 2024-10-22
 
-Next telecon at 10 am Eastern (Tressa sent Teams invite).
+Transcript from telecon to be posted by Tressa at https://drive.google.com/drive/folders/0AMBr_iILRTHRUk9PVA
+
+Email from Doug:
+> I do see some use of CF conventions from my perspective at LASP. In-situ measurements from GOES spacecraft in netCDF files come to mind. I’ve borrowed some ideas from CF conventions, but I have not seen them used broadly in heliophysics. Nothing beyond general guidelines.
+
+> Are you familiar with Digital Representation of Units of Measurement (DRUM): https://codata.org/initiatives/task-groups/drum/? I am not, but it did seem worth looking into.
 
 # 2024-10-18
 
