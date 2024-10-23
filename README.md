@@ -25,6 +25,8 @@ Email from Doug:
 
 > Are you familiar with Digital Representation of Units of Measurement (DRUM): https://codata.org/initiatives/task-groups/drum/? I am not, but it did seem worth looking into.
 
+https://www.semantic-web-journal.net/system/files/swj1775.pdf
+
 # 2024-10-18
 
 In Andriy's IHDEA presentation, he mentioned UDUNITS-2 as a possibility over VOUnits.
