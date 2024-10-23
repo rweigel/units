@@ -11,6 +11,15 @@ New documents to review:
 
 Transcript from telecon to be posted by Tressa at https://drive.google.com/drive/folders/0AMBr_iILRTHRUk9PVA
 
+Key points:
+* SI_CONVERSION (aka SI_Conversion and SI_conv) in ISTP guidelines has the advantage of being simple, but several issues to consider. The conversion for degrees to radians would be 16 digits (ideally) and if we used only it, software would not be able to take a machine readable string in the units the data provider gave to produce a MathML or LaTeX formatted string to put in a document or show on a plot. Also, if software understood the relationship between a degree and a radian, there would be no need to carry around a 16 digit string. There may be value in having humans compute the SI_CONVERSION to use to validate that a translation of a unit string is correct.
+* (Andriy) I actually would like to have standard like flexible standard which you really don't force people to to provide in some strict form. But on that on on at the same time you are able to read. I mean that's that's what I really would like to have rather than than all the time going and trying to do some kind of manual. Conversion also, but remember maybe some of those units are not even convertible to the old units because they don't have those units. (UDUNITS allows cm2, cm^2, cm**2 while VOUnits only cm**2; if we went with VOUnits, more existing unit strings would need to be re-written)
+* Discussed if we want to solve the immediate problem, which is representing existing CDAWeb units in a machine-readable format and adding to SPASE a requirement that Unit strings conform to a standard, or do we want to recommend to IHDEA a standard that should be used. There was not a clear answer, and the discussion wandered immediately after this question was raised.
+* There is still some confusion about the fact that "SI" is not a standard for how unit strings are expressed.
+* There is not universal agreement that about the value of having machine readable unit strings.
+* Next step is for people to experiment with VOUnits and UDUNITS.
+* Lee will post a spreadsheet of his unit translations based on [a sed script](https://github.com/spase-group/adapt/blob/2923ea562f297a206c848f345c01df1347f83d91/CDAWEB/variable_attribute_units.sed)
+
 Email from Doug:
 > I do see some use of CF conventions from my perspective at LASP. In-situ measurements from GOES spacecraft in netCDF files come to mind. I’ve borrowed some ideas from CF conventions, but I have not seen them used broadly in heliophysics. Nothing beyond general guidelines.
 
