@@ -2,6 +2,11 @@
 
 Telecon at 9 am. Tressa will send invite.
 
+New documents to review:
+* https://www.nature.com/articles/d41586-022-01233-w
+* https://ucum.org/ucum
+* https://codata.org/initiatives/task-groups/drum/
+
 # 2024-10-22
 
 Transcript from telecon to be posted by Tressa at https://drive.google.com/drive/folders/0AMBr_iILRTHRUk9PVA
