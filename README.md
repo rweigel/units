@@ -1,5 +1,37 @@
 # 2024-10-29
 
+Email forward from Doug. Referenced file: [ESDS-RFC-058%20WIGOS%20Units%20v0.1.docx](http://mag.gmu.edu/tmp/ESDS-RFC-058%20WIGOS%20Units%20v0.1.docx)
+----
+From: Olding, Steve (GSFC-423.0)[SCIENCE SYSTEMS AND APPLICATIONS INC] via ESDSWG Data Product Developers Guide and Resource Center for Data Producers Working Groups <esdswg-dpdg@lists.nasa.gov>
+Date: Tuesday, October 29, 2024 at 4:09 PM
+To: esdswg-dpdg@lists.nasa.gov <esdswg-dpdg@lists.nasa.gov>
+Subject: [DPDG/RCDP] EOSDIS REVIEW: ESDS-RFC-058 WIGOS Measurement Unit Standard
+
+NASA's Earth Science Data and Information Systems (ESDIS) Standards Coordination Office (ESCO) invites the ESDSWG Data Product Developers Guide Working Group to the review of ESDS-RFC-058 WIGOS Measurement Unit Standard.
+
+ESCO conducts reviews of proposed standards, practices, and technical information relevant to the ESDIS mission. Documents are reviewed as part of the ESDIS Project's standards process. Approved documents are published and listed on the Standards Requirements and References page.
+
+This RFC (Request For Comments) proposes adoption of the WIGOS (World Meteorological Organization (WMO) Integrated Global Observing System) Metadata Representation code list for measurement units (https://codes.wmo.int/wmdr/unit) by the NASA Earth Science community for standardizing unit notations. The current version of the WIGOS measurement unit code list covers the majority of units commonly used to measure Earth Science variables.
+
+Adopting the WIGOS measurement unit code will help improve interoperability and (re)usability of NASA Earth Science data, which is an important step to support NASA’s Open-Source Science and Open data initiative.
+
+Participation in the review can be done via Jama Connect or by downloading the document then responding via email. To use the NASA Earthdata Jama system to participate in this review, you must have an Earthdata Login account with access to Jama and to the review.
+
+Full details on how to participate and how to access Jama are on the review wiki page - https://wiki.earthdata.nasa.gov/x/LILBFw
+
+If you have any questions, comments, or concerns, please contact the ESCO staff at esco-staff@lists.nasa.gov.
+
+All review comments are due by November 12, 2024.
+
+Thanks.
+
+Steve Olding
+
+ESDIS Standards Coordination Office
+----
+
+# 2024-10-29
+
 Telecon at 9 am. Tressa will send invite.
 
 New documents to review:
