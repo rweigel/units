@@ -1,3 +1,11 @@
+# 2024-11-05
+
+Discuss 
+* https://www.nature.com/articles/d41586-022-01233-w and Bob's email exchanges with the author.
+* https://codata.org/initiatives/task-groups/drum/
+* EDS-RFC
+* https://ucum.org/ucum
+
 # 2024-10-29
 
 Email forward from Doug. Referenced files at bottom of page: https://wiki.earthdata.nasa.gov/x/LILBFw    
